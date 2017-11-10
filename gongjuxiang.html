@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<mate name="Author" content="乐乐"></mate>
+		<mate name="description" content="博客,乐乐,我的博客"></mate>
+		<title>mr.lele  工具箱</title>
+		<link  rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="shortcut icon" type="image/x-icon" href="images/logo.png">
+		<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+		<script type="text/javascript" src="js/wp.js"></script>
+
+	</head>
+	<body>
+		<!--<canvas id="canvas"></canvas>-->
+		<!--头部黑条-->
+		<div class="head_top">
+			<div class="head_list">
+				<div id="user-name">
+					<a href="my.html">喵！欢迎来到lele博客</a>
+					<a href="denglu.html">请登录</a>
+					<a href="zhuce.html">免费注册</a>
+				</div>
+				<div class="topbar">
+					<!--头部中间轮播-->
+					<div class="notice">
+						<ul>
+							<li>不定时更新！修复bug，若打不开，错位等，请刷新……</li>
+							<li>欢迎各位朋友登陆，分享PHP技巧。</li>
+							<li>温馨提示：乐乐博客于2017年n月正式上线。</li>
+						</ul>
+					</div>
+					<!--头部右侧-->
+					<ul class="list-ul">
+						<li class="github">
+							<a href="wodejieshao" target="_blank" title="Github @lele"></a>
+						</li>
+						<li>
+							<a href="PHP" target="_blank">php工具箱</a>
+						</li>
+						<li>
+							<a href="lianxiwomen.html" target="_blank">联系我们</a>
+						</li>
+						<li>
+							<a href="http://www.5ifxw.com/vipshipin/" target="_blank">Vip视频</a>
+						</li>
+						<li>
+							<a href="thanks.html" target="_blank">特别鸣谢</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--导航栏-->
+		<div class="head_conter">
+			<div class="nav">
+				<!--站标-->
+				<a href="my.html" class="T-logo" id="logo">
+					<span class="logo"></span>
+				</a>
+				<div class="nav-left"></div>
+				<div class="brand">
+					<p>关注php发展</p>
+					<p>H5,css3,javascript,mysql……</p>
+				</div>
+				<ul class="music-nav">
+					<li>
+						<a href="my.html">
+						<span class="hover">首页</span>
+					    </a>
+						<audio src="#" preload="auto"></audio>
+						<!--底部横条-->
+					    <p style="display: block;"></p>
+					</li>
+					<li>
+						<a href="http://www.weipxiu.com/?cat=2">
+						<span class="hover">WP视角</span>
+					    </a>
+						<audio src="#" preload="auto"></audio>
+						<!--底部横条-->
+					    <p style="display: block;"></p>
+					</li>
+					<li>
+						<a href="PHP.html">
+						<span class="hover">PHP开发</span>
+					    </a>
+						<audio src="#" preload="auto"></audio>
+						<!--底部横条-->
+					    <p style="display: block;"></p>
+					</li>
+					<li>
+						<a href="timer.html">
+						<span class="hover">时光机</span>
+					    </a>
+						<audio src="#" preload="auto"></audio>
+						<!--底部横条-->
+					    <p style="display: block;"></p>
+					</li>
+					<li>
+						<a href="zuopin.html">
+						<span class="hover">作品欣赏</span>
+					    </a>
+						<audio src="#" preload="auto"></audio>
+						<!--底部横条-->
+					    <p style="display: block;"></p>
+					</li>
+					<li>
+						<a href="liuyan.html">
+						<span class="hover">给我留言</span>
+					    </a>
+						<audio src="#" preload="auto"></audio>
+						<!--底部横条-->
+					    <p style="display: block;"></p>
+					</li>
+					<li>
+						<a href="guanyu.html">
+						<span class="hover">关于博客</span>
+					    </a>
+						<audio src="#" preload="auto"></audio>
+						<!--底部横条-->
+					    <p style="display: block;"></p>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+				
+		
+		<!--内容-->
+		<div class="container" style="margin-top: 35px;">
+			<div class="container-left" style="border: 0px; padding: 0px; background: transparent;
+				 transform: translateY(-108px);margin-top: 127px; animation: playLeft 1.2s ease-in-out 1s forwards; opacity: 1;">
+				
+			    <!--第一篇文章-->		    
+			    <div class="text" style="opacity: 1;">
+			    	<div class="img-left">
+			    		<img src="images/wordpress.png" width="220px" height="150px" class="attachment-post-thumbnail size-post-thumbnail wp-post-image"/>
+			    	</div>
+			    	<div class="text_right">
+			    		<h2>
+			    			<span>
+			    				<ul>
+			    					<li>
+			    						<a href="#">Wordpress</a>
+			    					</li>
+			    				</ul>
+			    				<!--<i></i>-->
+			    			</span>
+			    			<a href="#">Wordpress 搬家出现500 interval Server Error解决问题。</a>
+			    		</h2>
+			    		<div class="entry-meta">
+			    			<a href="#">mr~Lele</a>
+			    			<i class="space">•</i>
+			    			<a href="#">PHP开发模式</a>
+			    			<i class="space">•</i>
+			    			管理员（乐乐）
+			    			<a href="#" class="comments-number">
+			    				<span></span>
+			    			</a>
+			    		</div>
+			    		<!--内容-->
+			    		<h3>
+			    		
+                                                             这两天一直进行wordpress博客搬家，所以很多同学无法打开我的博客对此深深表示歉意，不过这两天一直为一个东西头疼万分，博客搬家后前台页面都没啥问题，后台...
+			    		</h3>
+			    		<!--右下角-->
+			    		<a href="#" class="read-more" target="_blank">
+			    			阅读全文
+			    			<i class="fa fa-chevron-circle-right"></i>
+			    		</a>
+			    		<!--天气-->
+			    		<p class="l">
+			    			<span>
+			    				<i class="iconfont icon-shijian1"></i>&nbsp;&nbsp;发表于四月前
+			    			</span>
+			    			&nbsp;&nbsp;&nbsp;
+			    			<span>
+			    				<a href="#">
+			    					<i class="iconfont icon-liulan"></i>5853058℃
+			    				</a>
+			    				<a href="#"></a>
+				
+			    			</span>&nbsp;&nbsp;&nbsp;
+			    			<a href="#"></a>
+			    			<span class="comm">
+			    				<a href="#" >
+			    					<i class="iconfont icon-pinglun2"></i>
+			    					<span id="#" class="cy_cmt_count">87</span>
+			    					条评论
+			    				</a>
+			    				
+			    			</span>&nbsp;&nbsp;&nbsp;
+			    			<span  class="post-like">
+			    				<a href="javascript" style="color: #f78585; data-action='ding' data-id='595' " class="favorite">
+			    					<i class="fa fa-thumbs-o-up" style="color: #f78585;"></i>
+			    					<span class="count">5</span>人喜欢
+			    				</a>
+			    			</span>
+			    			<span class="r"></span>
+			    			
+			    		</p>
+			    		<em>
+			    			<a href="#">0</a>
+			    		</em>
+			    	</div>
+			    </div>
+			    			    
+			    <!--第二篇-->
+			      <div class="text" style="opacity: 1; animation: ;">
+			    	<div class="img-left">
+			    		<img src="images/wordpress.png" width="220px" height="150px" class="attachment-post-thumbnail size-post-thumbnail wp-post-image"/>
+			    	</div>
+			    	<div class="text_right">
+			    		<h2>
+			    			<span>
+			    				<ul>
+			    					<li>
+			    						<a href="#">Wordpress</a>
+			    					</li>
+			    				</ul>
+			    				<!--<i></i>-->
+			    			</span>
+			    			<a href="#">Wordpress编辑器增加pre自定义标签	</a>
+			    		</h2>
+			    		<div class="entry-meta">
+			    			<a href="#">mr~Lele</a>
+			    			<i class="space">•</i>
+			    			<a href="#">PHP开发模式</a>
+			    			<i class="space">•</i>
+			    			管理员（乐乐）^*__*……
+			    			<a href="#" class="comments-number">
+			    				<span></span>
+			    			</a>
+			    		</div>
+			    		<!--内容-->
+			    		<h3>
+			    			
+                         wordpress输入带格式的代码时，每次都需要手动输入pre标签很不方便。如何能够像编辑器带的b标签一样，点一下就自动输入。
+                         wordpress增加自定义标签办法：
+                                                              修...
+			    		</h3>
+			    		<!--右下角-->
+			    		<a href="#" class="read-more" target="_blank">
+			    			阅读全文
+			    			<i class="fa fa-chevron-circle-right"></i>
+			    		</a>
+			    		<!--天气-->
+			    		<p class="l">
+			    			<span>
+			    				<i class="iconfont icon-shijian1"></i>&nbsp;&nbsp;发表于四月前
+			    			</span>
+			    			&nbsp;&nbsp;&nbsp;
+			    			<span>
+			    				<a href="#">
+			    					<i class="iconfont icon-liulan"></i>89441℃
+			    				</a>
+			    				<a href="#"></a>
+				
+			    			</span>&nbsp;&nbsp;&nbsp;
+			    			<a href="#"></a>
+			    			<span class="comm">
+			    				<a href="#" >
+			    					<i class="iconfont icon-pinglun2"></i>
+			    					<span id="#" class="cy_cmt_count">5</span>
+			    					条评论
+			    				</a>
+			    				
+			    			</span>&nbsp;&nbsp;&nbsp;
+			    			<span  class="post-like">
+			    				<a href="javascript" style="color: #f78585; data-action='ding' data-id='595' " class="favorite">
+			    					<i class="fa fa-thumbs-o-up" style="color: #f78585;"></i>
+			    					<span class="count">2</span>人喜欢
+			    				</a>
+			    			</span>
+			    			<span class="r"></span>
+			    			
+			    		</p>
+			    		<em>
+			    			<a href="#">0</a>
+			    		</em>
+			    	</div>
+			    </div>
+		
+			     <!--第三篇-->		 
+			      <div class="text" style="opacity: 1; animation: ;">
+			    	<div class="img-left">
+			    		<img src="images/wordpress.png" width="220px" height="150px" class="attachment-post-thumbnail size-post-thumbnail wp-post-image"/>
+			    	</div>
+			    	<div class="text_right">
+			    		<h2>
+			    			<span>
+			    				<ul>
+			    					<li>
+			    						<a href="#">Wordpress</a>
+			    					</li>
+			    				</ul>
+			    				<!--<i></i>-->
+			    			</span>
+			    			<a href="#">Wordpress 设计显示年月日的计时代码。附代码详解</a>
+			    		</h2>
+			    		<div class="entry-meta">
+			    			<a href="#">mr~Lele</a>
+			    			<i class="space">•</i>
+			    			<a href="#">PHP开发模式</a>
+			    			<i class="space">•</i>
+			    			管理员（乐乐）^*__*……
+			    			<a href="#" class="comments-number">
+			    				<span></span>
+			    			</a>
+			    		</div>
+			    		<!--内容-->
+			    		<h3>
+			    			
+									张戈博主分享的一段显示网站时间天，月，日，计时的一段代码。这里分享给大家。也可以详情百度搜索张戈博客搜索自行查找。
+									1234567891011121314151617181920...                    
+			    		</h3>
+			    		<!--右下角-->
+			    		<a href="#" class="read-more" target="_blank">
+			    			阅读全文
+			    			<i class="fa fa-chevron-circle-right"></i>
+			    		</a>
+			    		<!--天气-->
+			    		<p class="l">
+			    			<span>
+			    				<i class="iconfont icon-shijian1"></i>&nbsp;&nbsp;发表于十月前
+			    			</span>
+			    			&nbsp;&nbsp;&nbsp;
+			    			<span>
+			    				<a href="#">
+			    					<i class="iconfont icon-liulan"></i>9851℃
+			    				</a>
+			    				<a href="#"></a>
+				
+			    			</span>&nbsp;&nbsp;&nbsp;
+			    			<a href="#"></a>
+			    			<span class="comm">
+			    				<a href="#" >
+			    					<i class="iconfont icon-pinglun2"></i>
+			    					<span id="#"class="cy_cmt_count">13</span>
+			    					条评论
+			    				</a>
+			    				
+			    			</span>&nbsp;&nbsp;&nbsp;
+			    			<span  class="post-like">
+			    				<a href="javascript" style="color: #f78585; data-action='ding' data-id='595' " class="favorite">
+			    					<i class="fa fa-thumbs-o-up" style="color: #f78585;"></i>
+			    					<span class="count">22</span>人喜欢
+			    				</a>
+			    			</span>
+			    			<span class="r"></span>
+			    			
+			    		</p>
+			    		<em>
+			    			<a href="#">8</a>
+			    		</em>
+			    	</div>
+			    </div>
+			
+			     <!--第四篇-->			 
+			      <div class="text" style="opacity: 1; animation: ;">
+			    	<div class="img-left">
+			    		<img src="images/wordpress2.png" width="220px" height="150px" class="attachment-post-thumbnail size-post-thumbnail wp-post-image"/>
+			    	</div>
+			    	<div class="text_right">
+			    		<h2>
+			    			<span>
+			    				<ul>
+			    					<li>
+			    						<a href="#">Wordpress</a>
+			    					</li>
+			    				</ul>
+			    				<!--<i></i>-->
+			    			</span>
+			    			<a href="#">Wordpress 调用指定页面</a>
+			    		</h2>
+			    		<div class="entry-meta">
+			    			<a href="#">mr~Lele</a>
+			    			<i class="space">•</i>
+			    			<a href="#">PHP开发模式</a>
+			    			<i class="space">•</i>
+			    			管理员（乐乐）^*__*……
+			    			<a href="#" class="comments-number">
+			    				<span></span>
+			    			</a>
+			    		</div>
+			    		<!--内容-->
+			    		<h3>
+			    			
+							今天帮朋友做个简单wordpress后台文章管理功能，但他的页面是一站式开发，即：通过点击哪个导航对应的模块内容就展示出来，但是我们通常用wordpress后台发...
+			    		</h3>
+			    		<!--右下角-->
+			    		<a href="#" class="read-more" target="_blank">
+			    			阅读全文
+			    			<i class="fa fa-chevron-circle-right"></i>
+			    		</a>
+			    		<!--天气-->
+			    		<p class="l">
+			    			<span>
+			    				<i class="iconfont icon-shijian1"></i>&nbsp;&nbsp;发表于十一月前
+			    			</span>
+			    			&nbsp;&nbsp;&nbsp;
+			    			<span>
+			    				<a href="#">
+			    					<i class="iconfont icon-liulan"></i>8℃
+			    				</a>
+			    				<a href="#"></a>
+				
+			    			</span>&nbsp;&nbsp;&nbsp;
+			    			<a href="#"></a>
+			    			<span class="comm">
+			    				<a href="#" >
+			    					<i class="iconfont icon-pinglun2"></i>
+			    					<span id="#"class="cy_cmt_count">89</span>
+			    					条评论
+			    				</a>
+			    				
+			    			</span>&nbsp;&nbsp;&nbsp;
+			    			<span  class="post-like">
+			    				<a href="javascript" style="color: #f78585; data-action='ding' data-id='595' " class="favorite">
+			    					<i class="fa fa-thumbs-o-up" style="color: #f78585;"></i>
+			    					<span class="count">0</span>人喜欢
+			    				</a>
+			    			</span>
+			    			<span class="r"></span>
+			    			
+			    		</p>
+			    		<em>
+			    			<a href="#">1</a>
+			    		</em>
+			    	</div>
+			    </div>
+		
+			    <!--第五篇-->			 
+			      <div class="text" style="opacity: 1; animation: ;">
+			    	<div class="img-left">
+			    		<img src="images/wordpress3.png" width="220px" height="150px" class="attachment-post-thumbnail size-post-thumbnail wp-post-image"/>
+			    	</div>
+			    	<div class="text_right">
+			    		<h2>
+			    			<span>
+			    				<ul>
+			    					<li>
+			    						<a href="#">Wordpress</a>
+			    					</li>
+			    				</ul>
+			    				<!--<i></i>-->
+			    			</span>
+			    			<a href="#"></a>
+			    		</h2>
+			    		<div class="entry-meta">
+			    			<a href="#">mr~Lele</a>
+			    			<i class="space">•</i>
+			    			<a href="#">PHP开发模式</a>
+			    			<i class="space">•</i>
+			    			管理员（乐乐）^*__*……
+			    			<a href="#" class="comments-number">
+			    				<span></span>
+			    			</a>
+			    		</div>
+			    		<!--内容-->
+			    		<h3>
+			    			
+						1234567891011121314151617    <?php the_author(); ?>显示文章的作者<br />
+						    <?php the_author_description...			    		</h3>
+			    		<!--右下角-->
+			    		<a href="#" class="read-more" target="_blank">
+			    			阅读全文
+			    			<i class="fa fa-chevron-circle-right"></i>
+			    		</a>
+			    		<!--天气-->
+			    		<p class="l">
+			    			<span>
+			    				<i class="iconfont icon-shijian1"></i>&nbsp;&nbsp;发表于十一月前
+			    			</span>
+			    			&nbsp;&nbsp;&nbsp;
+			    			<span>
+			    				<a href="#">
+			    					<i class="iconfont icon-liulan"></i>41℃
+			    				</a>
+			    				<a href="#"></a>
+				
+			    			</span>&nbsp;&nbsp;&nbsp;
+			    			<a href="#"></a>
+			    			<span class="comm">
+			    				<a href="#" >
+			    					<i class="iconfont icon-pinglun2"></i>
+			    					<span id="#"class="cy_cmt_count">7</span>
+			    					条评论
+			    				</a>
+			    				
+			    			</span>&nbsp;&nbsp;&nbsp;
+			    			<span  class="post-like">
+			    				<a href="javascript" style="color: #f78585; data-action='ding' data-id='595' " class="favorite">
+			    					<i class="fa fa-thumbs-o-up" style="color: #f78585;"></i>
+			    					<span class="count">1</span>人喜欢
+			    				</a>
+			    			</span>
+			    			<span class="r"></span>
+			    			
+			    		</p>
+			    		<em>
+			    			<a href="#"></a>
+			    		</em>
+			    	</div>
+			    </div>
+		
+                <!--第六篇-->
+                <div class="text" style="opacity: 1; animation: ;">
+			    	<div class="img-left">
+			    		<img src="images/wordpress2.png" width="220px" height="150px" class="attachment-post-thumbnail size-post-thumbnail wp-post-image"/>
+			    	</div>
+			    	<div class="text_right">
+			    		<h2>
+			    			<span>
+			    				<ul>
+			    					<li>
+			    						<a href="#">Wordpress</a>
+			    					</li>
+			    				</ul>
+			    				<!--<i></i>-->
+			    			</span>
+			    			<a href="#">如何搭建word press网站</a>
+			    		</h2>
+			    		<div class="entry-meta">
+			    			<a href="#">mr~Lele</a>
+			    			<i class="space">•</i>
+			    			<a href="#">PHP开发模式</a>
+			    			<i class="space">•</i>
+			    			管理员（乐乐）^*__*……
+			    			<a href="#" class="comments-number">
+			    				<span></span>
+			    			</a>
+			    		</div>
+			    		<!--内容-->
+			    		<h3>
+			    			
+                          WordPress是现在最受欢迎的博客系统，国内现在也有越来越多的人开始使用WordPress建站，今天我们就来讲一下如果搭建一个WordPress网站。当然，这篇文章只是系...
+			    		</h3>
+			    		<!--右下角-->
+			    		<a href="#" class="read-more" target="_blank">
+			    			阅读全文
+			    			<i class="fa fa-chevron-circle-right"></i>
+			    		</a>
+			    		<!--天气-->
+			    		<p class="l">
+			    			<span>
+			    				<i class="iconfont icon-shijian1"></i>&nbsp;&nbsp;2016年4月3日
+			    			</span>
+			    			&nbsp;&nbsp;&nbsp;
+			    			<span>
+			    				<a href="#">
+			    					<i class="iconfont icon-liulan"></i>881℃
+			    				</a>
+			    				<a href="#"></a>
+				
+			    			</span>&nbsp;&nbsp;&nbsp;
+			    			<a href="#"></a>
+			    			<span class="comm">
+			    				<a href="#" >
+			    					<i class="iconfont icon-pinglun2"></i>
+			    					<span id="#"class="cy_cmt_count">80</span>
+			    					条评论
+			    				</a>
+			    				
+			    			</span>&nbsp;&nbsp;&nbsp;
+			    			<span  class="post-like">
+			    				<a href="javascript" style="color: #f78585; data-action='ding' data-id='595' " class="favorite">
+			    					<i class="fa fa-thumbs-o-up" style="color: #f78585;"></i>
+			    					<span class="count">0</span>人喜欢
+			    				</a>
+			    			</span>
+			    			<span class="r"></span>
+			    			
+			    		</p>
+			    		<em>
+			    			<a href="#">8</a>
+			    		</em>
+			    	</div>
+			    </div>
+			    
+			    <!--第七篇-->
+			      <div class="text" style="opacity: 1; animation: ;">
+			    	<div class="img-left">
+			    		<img src="images/wordpress4.jpg" width="220px" height="150px" class="attachment-post-thumbnail size-post-thumbnail wp-post-image"/>
+			    	</div>
+			    	<div class="text_right">
+			    		<h2>
+			    			<span>
+			    				<ul>
+			    					<li>
+			    						<a href="#">wordpress</a>
+			    					</li>
+			    				</ul>
+			    				<!--<i></i>-->
+			    			</span>
+			    			<a href="#">如何获取word press当前用户的信息</a>
+			    		</h2>
+			    		<div class="entry-meta">
+			    			<a href="#">mr~Lele</a>
+			    			<i class="space">•</i>
+			    			<a href="#">PHP开发模式</a>
+			    			<i class="space">•</i>
+			    			管理员（乐乐）^*__*……
+			    			<a href="#" class="comments-number">
+			    				<span></span>
+			    			</a>
+			    		</div>
+			    		<!--内容-->
+			    		<h3>
+		                 
+						在WordPress开发过程中，我们可能需要获取当前登录的用户信息，例如当用户登录后我们在前台页面输入xx欢迎登录
+						可以参考下面的代码：
+						123456<!--?php glo...
+			    		</h3>
+			    		<!--右下角-->
+			    		<a href="#" class="read-more" target="_blank">
+			    			阅读全文
+			    			<i class="fa fa-chevron-circle-right"></i>
+			    		</a>
+			    		<!--天气-->
+			    		<p class="l">
+			    			<span>
+			    				<i class="iconfont icon-shijian1"></i>&nbsp;&nbsp;2017/5/1
+			    			</span>
+			    			&nbsp;&nbsp;&nbsp;
+			    			<span>
+			    				<a href="#">
+			    					<i class="iconfont icon-liulan"></i>71℃
+			    				</a>
+			    				<a href="#"></a>
+				
+			    			</span>&nbsp;&nbsp;&nbsp;
+			    			<a href="#"></a>
+			    			<span class="comm">
+			    				<a href="#" >
+			    					<i class="iconfont icon-pinglun2"></i>
+			    					<span id="#"class="cy_cmt_count">5</span>
+			    					条评论
+			    				</a>
+			    				
+			    			</span>&nbsp;&nbsp;&nbsp;
+			    			<span  class="post-like">
+			    				<a href="javascript" style="color: #f78585; data-action='ding' data-id='595' " class="favorite">
+			    					<i class="fa fa-thumbs-o-up" style="color: #f78585;"></i>
+			    					<span class="count">7</span>人喜欢
+			    				</a>
+			    			</span>
+			    			<span class="r"></span>
+			    			
+			    		</p>
+			    		<em>
+			    			<a href="#">1</a>
+			    		</em>
+			    	</div>
+			    </div>
+			</div>   
+			    
+			    
+			 
+		    <!--左侧结束-->
+		    
+		
+		
+		
+		    <!--右侧-->
+			<div class="container-right" style="animation:; opacity: 1;transform: translate(0px);">
+				<!--博客介绍-->
+				<div class="aside" style="animation: forwards; opacity: 1;">
+					<h3>博客介绍</h3>
+					<img src="images/right1.jpg" style="width: 100%;display: block;margin-top: 10px;" />
+					<div class="textwidget">
+						<p class="clearfix">PHP博客: http://*********.com，我们关注Web前端开发技术，移动前端开发，PHP资讯，同时分享PHP资源和工具等，期待你的参与,
+						<a href="#" target="_blank" rel="nofollow">了解更多...</a>
+						</p>
+						<!--分享-->
+						<ul class="social">
+							<ul class="social">
+								<li class="weibo">
+									<a href="#" target="_blank" class="top-tip" title="加QQ好友">
+										<i class="iconfont icon-qq"></i>
+										QQ
+									</a>
+								</li>
+								<li class="qq">
+									<a href="#" target="_blank" class="top-tip" rel='nofollow' title="加php群">
+										<i class="iconfont icon-qqqun"></i>
+										Q群
+									</a>
+								</li>
+								<li class="feed">
+									<a href="#" target="_blank" class="top-tip" title="QQ临时会话">
+										<i class="iconfont icon-qq"></i>
+										会话
+									</a>
+								</li>
+								<li class="email">
+									<a href="#" target="_blank" class="top-tip" title="给我发email邮件">
+										<i class="iconfont icon-youxiang"></i>
+										邮件
+									</a>
+								</li>
+								<li class="weixin">
+									<a href="#" target="_blank" class="top-tip" title="加微信好友">
+										<i class="iconfont icon-微信"></i>
+										微信
+									</a>
+								</li>
+							</ul>
+						</ul>
+					</div>
+				</div>
+
+				<!--喜欢-->
+				<div class="widget" style="opacity: 1;animation: forwards;">
+					<div class="daily-list">
+						<h3 class="widget-title">
+							<a href="javascript">
+								<i class="fa fa-bars"></i>
+								大家喜欢
+							</a>
+						</h3>
+						<ul>
+							<li>
+								<em>1</em>
+								<a href="#" title="推荐稳定可用的翻墙vpn软件，免费上国外网站-lele推荐">
+									推荐稳定可靠的翻墙vpn软件--乐乐
+								</a>
+							</li>
+							<li>
+								<em>2</em>
+								<a href="#" title="图库">
+									图库表**
+								</a>
+							</li>
+							<li>
+								<em>3</em>
+								<a href="#" title="Angular.js常用知识点">Angular.js常用知识点</a>
+							</li>
+							<li>
+					            <em>4</em>
+					            <a href="#" title="有效防止百度移动端搜索转码">有效防止百度移动端搜索转码</a>
+							</li>
+							<li>
+								<em>5</em>
+								<a href="#" title="Wordpress 搬家出现500intermal">Wordpress 搬家出现500intermal</a>
+							</li>
+							<li>
+								<em>6</em>
+								<a href="#" title="未知高度和宽度元素的水平垂直居中（不外传）">未知高度和宽度元素的水平垂直居中（不外传）</a>
+							</li>
+							<li>
+								<em>7</em>
+								<a href="#" title="酷我音乐--音乐外链">酷我音乐--音乐外链</a>
+							</li>
+							<li>
+								<em>8</em>
+								<a href="#" title="如果这就是爱情">如果这就是爱情</a>
+							</li>
+							<li>
+								<em>9</em>
+								<a href="#" title="浅谈javascript中的闭包">浅谈javascript中的闭包</a>
+							</li>
+							<li>
+								<em>10</em>
+								<a href="#" title="Angular1x配合ui-router和oclazyload按需要">Angular1x配合ui-router和oclazyload按需要</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				
+				<!--技术分类-->
+				<div class="classif" style="opacity: 1;animation: forwards;">
+					<h3 class="widget-title">
+							<a href="javascript">
+								<i class="fa fa-bars"></i>
+								文章分类
+							</a>
+					</h3>
+					<div class="items">
+						<a href="">HTML/CSS(8)</a>
+						<a href="">HTML5(5)</a>
+						<a href="">CSS3详解</a>
+						<a href="">javascript(10)</a>
+						<a href="">jQuery(10)</a>
+						<a href="">PHP技巧(9)</a>
+						<a href="">PHP资源(7)</a>
+						<a href="">Vue.js(7)</a>
+						<a href="">Webpack(43)</a>
+						<a href="">Node.js(3)</a>
+						<a href="">PHP工具箱(0)</a>
+						<a href="">Wordpress(0)</a>
+						<a href="">lele(99+)</a>
+						<a href="">站长必备(0)</a>
+						<a href="">Gulp(0)</a>
+						<a href="">兼容(0)</a>
+						<a href="">web标准(0)</a>
+						<a href="">网站公告(0)</a>
+						<a href="">搜索引擎(0)</a>
+						<a href="">网页设计(0)</a>
+						<a href="">UI设计(0)</a>
+					</div>
+				</div>
+				
+				<!--评论模板-->
+				<div class="classif" id='primary-sidebar' style="opacity: 1;animation: forwards;">
+					<h3 class="widget-title">
+							<a href="javascript">
+								<i class="fa fa-bars"></i>
+								精彩评论
+							</a>
+					</h3>
+					<div id="cyreping" role="cylobs" data-use='reping'>
+						<div id="cyWrapper" class="cy-wrapper">
+							评论区待启动……
+						</div>
+					</div>
+				</div>
+				
+				<!--友情链接-->
+				<div class="widget friendship" style="opacity: 1; animation: forwards;">
+					<div class="daily-list">
+						<h3 class="widget-title">
+							<a href="javascript">
+								<i class="fa fa-bars"></i>
+								友情链接
+							</a>
+					</h3>
+					<p>
+						他们同样是一群网虫，却不是每天泡在网上游走在淘宝和网游之间、
+						刷着本来就快要透支的信用卡。他们或许没有踏出国门一步，却获得了斯坦福、
+						哈佛等许多常青藤名校课程的结业证……他们的同学不局限在一国一校，而是遍及全球……加入他们，成为一名互联网学习者！
+					</p>
+					<ul>
+						<li>
+							<a href="http://www.mxxia.com" title="梦想霞个人博客" target="_blank">
+								梦想霞个人博客
+							</a>
+						</li>
+						<li>
+							<a href="http://cunyanr.cn/" title="寸言博客" target="_blank">
+								寸言博客
+							</a>
+						</li>
+						<li>
+							<a href="http://wujiabk.com/" title="吴佳（jasn）博客" target="_blank">
+							   吴佳（jasn）博客
+							</a>
+						</li>
+						<li>
+							<a href="http://www.wcanrong.com" title="璀璨星辰个人博客" target="_blank">
+							   璀璨星辰个人博客
+							</a>
+						</li>
+					</ul>
+					</div>
+				</div>
+				
+				<!--统计-->
+				<div class="widget" id="web-tj" style="opacity: 1; animation: forwards;">
+					<div class="daily-list">
+						<h3 class="widget-title">
+								<a href="javascript">
+									<i class="fa fa-bars"></i>
+									友情链接
+								</a>
+						</h3>
+						<ul>
+							<li>文章：4篇</li>
+							<li>分类：2个</li>
+							<li>标签：24个</li>
+							<li>运行：&天</li>
+							<li>更新：……</li>
+							
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		
+		
+		
+		
+		<!--底部开始-->
+		<div class="footer">
+			<div class="container">
+				<p>
+					Copyright © 2016-2017 http://lele.COM · 版权所有 鄂ICP备 16001853号-1
+				</p>
+				<p class="map">
+					<a href="#">乐乐博客</a>
+					关注PHP发展技术&nbsp;&nbsp;|移动前端发展|前端资讯|同事分享前端资源和工具
+					<a target="_blank" href="#">网站地图</a>
+				</p>
+				<p style="color: #2980B9;">
+					该站勉强运行：
+					<span id="htmer_time" style="color:#2980B9;">^</span>
+					<p>注：鄙视模板套用，谢谢合作！</p>
+				</p>
+				<p>
+					<span id="cnzz_stat_icon_1261688511">
+						<a href="#" target="_blank">站长统计</a>
+						<a href="#" target="_blank">|今日IP[10]  |今日PV[142]  |昨日IP[55]  |昨日PV[357]</a>
+						<a href="#" target="_blank">当前在线[1]</a>
+					</span>
+				</p>
+			</div>
+		</div>	
+		
+		
+		<!--返回顶部-->
+		<div id="return-top">
+		
+		</div>
+	</body>
+</html>
+
